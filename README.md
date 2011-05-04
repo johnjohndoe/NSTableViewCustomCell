@@ -13,7 +13,7 @@ Screenshot
 ------------------
 The screenshot shows the current implementation.
 
-![Path interpolation](https://github.com/johnjohndoe/NSTableViewCustomCell/raw/master/screenshot.png "NSTableViewCustomCell")
+![NSTableViewCustomCell screenshot](https://github.com/johnjohndoe/NSTableViewCustomCell/raw/master/screenshot.png "NSTableViewCustomCell screenshot")
 
 
 Configuration
@@ -22,6 +22,6 @@ Configuration
 The following configuration is used for the project.
 
 * MacOSX 10.6.6
-* XCode 3.2.2. 64bit
+* XCode 3.2.2 64bit
 * Cocoa Application
 * Garbage collection
