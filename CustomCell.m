@@ -7,6 +7,8 @@
 //
 
 #import "CustomCell.h"
+#import "DataItem.h"
+#import "NSObjectWrapper.h"
 
 
 @implementation CustomCell
@@ -21,7 +23,12 @@
 		[controlView addSubview:m_view];
 	}
 	
-	[[m_view name] setStringValue:[self stringValue]];
+	// The array controller only gets wrapped data items pack by the NSObjectTransformer.
+	// Therefore, objectValue returns a NSObjectWrapper.
+	// Unpack the wrapper to retreive the data item.
+	DataItem* dataItem = [(NSObjectWrapper*)[self objectValue] original];
+	[[m_view name] setStringValue:dataItem.name];
+	[[m_view occupation] setStringValue:dataItem.occupation];
 	[m_view setFrame:cellFrame];
 }
 

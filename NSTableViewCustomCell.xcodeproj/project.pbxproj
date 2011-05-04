@@ -12,6 +12,8 @@
 		55D1C323137183680025C46A /* DataItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 55D1C322137183680025C46A /* DataItem.m */; };
 		55D1C363137186CE0025C46A /* CustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 55D1C362137186CE0025C46A /* CustomCell.m */; };
 		55D1C366137186E10025C46A /* CustomCellView.m in Sources */ = {isa = PBXBuildFile; fileRef = 55D1C365137186E10025C46A /* CustomCellView.m */; };
+		55D1C3E0137191B20025C46A /* NSObjectTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 55D1C3DF137191B20025C46A /* NSObjectTransformer.m */; };
+		55D1C3E31371921B0025C46A /* NSObjectWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 55D1C3E21371921B0025C46A /* NSObjectWrapper.m */; };
 		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
 		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
 		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
@@ -34,6 +36,10 @@
 		55D1C362137186CE0025C46A /* CustomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomCell.m; sourceTree = "<group>"; };
 		55D1C364137186E10025C46A /* CustomCellView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomCellView.h; sourceTree = "<group>"; };
 		55D1C365137186E10025C46A /* CustomCellView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomCellView.m; sourceTree = "<group>"; };
+		55D1C3DE137191B20025C46A /* NSObjectTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSObjectTransformer.h; sourceTree = "<group>"; };
+		55D1C3DF137191B20025C46A /* NSObjectTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSObjectTransformer.m; sourceTree = "<group>"; };
+		55D1C3E11371921B0025C46A /* NSObjectWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSObjectWrapper.h; sourceTree = "<group>"; };
+		55D1C3E21371921B0025C46A /* NSObjectWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSObjectWrapper.m; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* NSTableViewCustomCell-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "NSTableViewCustomCell-Info.plist"; sourceTree = "<group>"; };
 		8D1107320486CEB800E47090 /* NSTableViewCustomCell.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NSTableViewCustomCell.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -61,6 +67,10 @@
 				55D1C362137186CE0025C46A /* CustomCell.m */,
 				55D1C364137186E10025C46A /* CustomCellView.h */,
 				55D1C365137186E10025C46A /* CustomCellView.m */,
+				55D1C3DE137191B20025C46A /* NSObjectTransformer.h */,
+				55D1C3DF137191B20025C46A /* NSObjectTransformer.m */,
+				55D1C3E11371921B0025C46A /* NSObjectWrapper.h */,
+				55D1C3E21371921B0025C46A /* NSObjectWrapper.m */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -194,6 +204,8 @@
 				55D1C323137183680025C46A /* DataItem.m in Sources */,
 				55D1C363137186CE0025C46A /* CustomCell.m in Sources */,
 				55D1C366137186E10025C46A /* CustomCellView.m in Sources */,
+				55D1C3E0137191B20025C46A /* NSObjectTransformer.m in Sources */,
+				55D1C3E31371921B0025C46A /* NSObjectWrapper.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
