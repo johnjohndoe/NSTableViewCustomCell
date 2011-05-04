@@ -11,8 +11,10 @@
 @interface NSTableViewCustomCellAppDelegate : NSObject<NSApplicationDelegate> {
 
     NSWindow*			m_window;
+	NSMutableArray*		m_data;
 }
 
 @property (assign) IBOutlet NSWindow* window;
+@property (readwrite, assign) NSMutableArray* data;
 
 @end
